@@ -44,7 +44,7 @@ All migrations are located under `./internal/database/migrations`. These will be
 
 To create a new database migration run:
 ```bash
-migrate create -ext sql -dir ./apps/api/internal/shared/database/migrations -seq <migration_name>
+migrate create -ext sql -dir ./apps/api/internal/database/migrations -seq <migration_name>
 ```
 
 ### 4. Testing
